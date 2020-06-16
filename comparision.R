@@ -1,9 +1,6 @@
 require(asreml)
 require(dae)
 require(MASS)
-require(parallel)
-require(doParallel)
-require(foreach)
 
 ################################### simulation ###############################
 column <- factor(rep(1:10,each=6))
